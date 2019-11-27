@@ -1,4 +1,4 @@
-// 递归实现斐波那契数
+// 递归实现n的阶乘
 int Fib_rec(int n)
 {
 	if (n == 1)
@@ -6,7 +6,7 @@ int Fib_rec(int n)
 	return n * Fib_rec(n - 1);
 }
 
-// 非递归实现斐波那契数
+// 非递归实现n的阶乘
 int Fib_nonrec(int n)
 {
 	int y = 1;
